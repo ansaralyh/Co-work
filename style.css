@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* full page 1440px */
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background: #FFFFFF;
+    border: 1px solid red;
+}
+
+.container-one {
+    /* background: #F5F5F5;; */
+}
+
+/* navbar  */
+.nav-bar {
+    margin-top: 29.55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    /* Primary-color */
+
+    color: #177B57;
+}
+
+.items ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.items ul li {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    color: #666666;
+}
+
+.nav-btn button {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 29px;
+    padding-right: 28px;
+    background: #177B57;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 8px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+    text-align: center;
+    letter-spacing: -0.011em;
+
+    color: #F5F5F5;
+}
+
+/* navbar close */
+
+
+
+/* ---------Secton one start------------ */
+.section-one {
+    display: flex;
+    /* gap: 107px; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.sec-one-left {
+    margin-top: 67px;
+}
+
+.sec-one-heading {
+    /* border: 2px solid blue; */
+    /* margin-top: 67px; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 135%;
+    /* or 86px */
+
+    letter-spacing: 0.009em;
+
+    color: #1D1D1D;
+}
+
+.sec-one-heading span {
+    margin-bottom: 67px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 135%;
+    /* or 86px */
+
+    letter-spacing: 0.009em;
+
+    color: #177B57;
+}
+
+.sec-one-img {
+    margin-top: 127px;
+    /* border: 2px solid red; */
+
+
+}
+
+
+
+
+.dropdown-container {
+    /* width: 680px; */
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(91, 132, 193, 0.1);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.loc-one {
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding: 17.5px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.search-button button {
+
+    background: #177B57;
+    border-radius: 10px;
+    padding: 21px 37px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+select {
+    border: none;
+    background: transparent;
+}
+
+select option {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    color: #3E3E3E;
+}
+
+.location-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.location-dropdown-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #3E3E3E;
+}
+
+.places {
+    /* border: 1px solid red; */
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+
+}
+
+.city {
+    height: 120px;
+    width: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(91, 132, 193, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10.44px;
+}
+
+.city span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #666666;
+
+}
