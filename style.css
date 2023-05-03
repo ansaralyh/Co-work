@@ -12,13 +12,17 @@
 .main {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 100px;
+
     background: #FFFFFF;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .container-one {
     /* background: #F5F5F5;; */
+    padding: 0 100px;
+
+    /* border: 1px solid red; */
+
 }
 
 /* navbar  */
@@ -66,6 +70,7 @@
 }
 
 .nav-btn button {
+    border-style: none;
     padding-top: 8px;
     padding-bottom: 9px;
     padding-left: 29px;
@@ -95,6 +100,8 @@
     display: flex;
     /* gap: 107px; */
     justify-content: space-between;
+    height: 813px;
+    padding: 0 100px;
     /* align-items: center; */
 }
 
@@ -168,6 +175,7 @@
     font-size: 20px;
     line-height: 18px;
     color: #FFFFFF;
+    border-style: none;
 
 }
 
@@ -226,7 +234,41 @@ select option {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
     color: #666666;
+
+}
+
+/* sectio one end */
+
+
+/* section two start */
+.container-two{
+
+    padding: 0 100px;
+}
+.section-two {
+    border: 1px solid red;
+    /* border: 1px solid blue; */
+    height: 679px;
+}
+
+.sec-two-heading {
+    margin-top: 70px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    color: #2B2B2B;
+    margin-bottom: 30px;
+}
+
+.sec-two-heading span {
+    color: #177B57;
+}
+
+ .sec-two-para p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #666666;
 
 }
