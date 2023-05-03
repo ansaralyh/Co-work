@@ -242,10 +242,11 @@ select option {
 
 
 /* section two start */
-.container-two{
+.container-two {
 
     padding: 0 100px;
 }
+
 .section-two {
     border: 1px solid red;
     /* border: 1px solid blue; */
@@ -265,10 +266,20 @@ select option {
     color: #177B57;
 }
 
- .sec-two-para p{
+.sec-two-para p {
     font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-color: #666666;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666666;
 
+}
+
+.sec-two-card1 {
+    height: 404px;
+    width: 294px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px rgba(91, 132, 193, 0.1);
+    border-radius: 10px;
+    border: 1px solid red;
+    margin-top: 30px;
 }
