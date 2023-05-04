@@ -13,6 +13,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
   </head>
   <body>
     <div class="main">
@@ -320,34 +347,97 @@
 
         <img src="/img/“.png" alt="" />
 
-        <div class="slider">
-          <!-- <div class="arrows">
-            <div class="left-arrow">
-              <img src="/img/Arrow Circle Left.png" alt="" />
-            </div>
-            <div class="right-arrow">
-              <img src="/img/Arrow  Circle Right.png" alt="" />
-            </div>
-          </div> -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider">
+                <div class="slider-text">
+                  <p>
+                    Overall, I had a great experience using this co-working
+                    space platform and <br />
+                    would highly recommend it to anyone looking for a
+                    convenient, flexible, and <br />
+                    quality workspace solution.
+                  </p>
 
-          <div class="slider-text">
-            <p>
-              Overall, I had a great experience using this co-working space
-              platform and <br />
-              would highly recommend it to anyone looking for a convenient,
-              flexible, and <br />
-              quality workspace solution.
-            </p>
+                  <div class="slider-rating">
+                    <span class="rating-stars"
+                      >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                    >
+                    <p class="rating-name">John Smith</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider">
+                <div class="slider-text">
+                  <p>
+                    Overall, I had a great experience using this co-working
+                    space platform and <br />
+                    would highly recommend it to anyone looking for a
+                    convenient, flexible, and <br />
+                    quality workspace solution.
+                  </p>
 
-            <div class="slider-rating">
-              <span class="rating-stars"
-                >&#9733;&#9733;&#9733;&#9733;&#9733;</span
-              >
-              <p class="rating-name">John Smith</p>
+                  <div class="slider-rating">
+                    <span class="rating-stars"
+                      >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                    >
+                    <p class="rating-name">John Smith</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider">
+                <div class="slider-text">
+                  <p>
+                    Overall, I had a great experience using this co-working
+                    space platform and <br />
+                    would highly recommend it to anyone looking for a
+                    convenient, flexible, and <br />
+                    quality workspace solution.
+                  </p>
+
+                  <div class="slider-rating">
+                    <span class="rating-stars"
+                      >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+                    >
+                    <p class="rating-name">John Smith</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          <div
+            style="height: 45px; width: 45px; border-radius: 50%; right: 72px"
+            class="swiper-button-next"
+          ></div>
+          <div
+            style="height: 45px; width: 45px; border-radius: 50%; left: 72px"
+            class="swiper-button-prev"
+          ></div>
         </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
   </body>
 </html>

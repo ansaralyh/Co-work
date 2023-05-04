@@ -420,7 +420,7 @@ select option {
 }
 
 .sec-four-heading {
-   
+
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
@@ -451,14 +451,17 @@ select option {
     border-radius: 10px;
     /* margin-top: 60px; */
 }
-.arrows{
+
+.arrows {
     position: relative;
 }
+
 .left-arrow {
     position: absolute;
     left: 331px;
     top: -37px;
 }
+
 .right-arrow {
     position: absolute;
     left: 1246px;
@@ -485,12 +488,12 @@ select option {
 
     text-align: center;
 }
-.section-four img
-{
+
+.section-four img {
     position: relative;
     right: 443px;
     /* top: 56px; */
-    margin-bottom: 10px;
+    margin-bottom: -130px;
     margin-top: 6px;
 }
 
@@ -513,4 +516,34 @@ select option {
 
     color: #1B757E;
     /* margin-top: 61px; */
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    height: 5px;
+    color: #23976D;
+    transform: scale(0.3) translateY(-12px);
+    font-weight: bolder;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: absolute;
+    left: 150px;
+    border: 2px solid #23976D;
+    height: 45px;
+    width: 45px;
+    transition-duration: .3s;
+}
+
+.buton-outer {}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: #23976D;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+    color: #fff;
 }
