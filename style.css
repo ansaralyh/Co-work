@@ -135,16 +135,10 @@
 
     color: #177B57;
 }
-
 .sec-one-img {
     margin-top: 127px;
     /* border: 2px solid red; */
-
-
 }
-
-
-
 
 .dropdown-container {
     /* width: 680px; */
@@ -248,7 +242,7 @@ select option {
 }
 
 .section-two {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* border: 1px solid blue; */
     height: 679px;
 }
@@ -280,6 +274,117 @@ select option {
     background: #FFFFFF;
     box-shadow: 0px 15px 50px rgba(91, 132, 193, 0.1);
     border-radius: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 30px;
+}
+.card1-img {
+   text-align: center;
+   margin-top: 10px;
+}
+.card1-img img {
+   margin: 0 auto;
+}
+.fixed p{
+    padding-left: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 18px;
+color: #000000;
+}
+
+.icon-text1{
+    margin-top: 20px;
+    padding-left: 15px;
+    gap: 15px;
+    display: flex;
+}
+.icon-text2{
+    margin-top: 10px;
+    padding-left: 15px;
+    gap: 15px;
+    display: flex;
+}
+.permanent{
+    margin-top: 20px;
+    padding-left: 15px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+color: #666666;
+}
+.txt-arrow{
+    gap: 23.5px;
+    padding-left:15px;
+    display: flex;
+    align-items: center;
+    
+}
+.txt-arrow img{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+.txt-arrow span{
+    font-weight: 500;
+font-size: 20px;
+line-height: 18px;
+/* identical to box height, or 90% */
+
+margin-top: 23px;
+
+color: #177B57;
+}
+.sec-two-cards{
+    gap: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-three
+{
+    height: 662px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.sec-three-cards
+{
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+.sec-three-heading{
+    font-weight: 700;
+font-size: 44px;
+line-height: 53px;
+margin-top: 70px;
+color: #2B2B2B;
+margin-bottom: 20px;
+}
+.sec-three-heading span{
+    color: #177B57;
+}
+.sec-three-para p {
+    font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #666666;
+}
+#icon-text1
+{
+    padding: 0 15px;
+    /* text-align: center; */
+    padding-left: 1px;
+    /* border: 1px solid red; */
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* or 138% */
+
+text-align: justify;
+
+color: #666666;
 }
