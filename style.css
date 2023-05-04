@@ -6,7 +6,14 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Libre Franklin', sans-serif;
+
 }
+
+input:focus {
+    outline: none;
+}
+
+
 
 /* full page 1440px */
 .main {
@@ -277,6 +284,7 @@ select option {
     border-radius: 10px;
     /* border: 1px solid red; */
     margin-top: 30px;
+    position: relative;
 }
 
 .card1-img {
@@ -293,12 +301,13 @@ select option {
     margin-top: 20px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 18px;
+    line-height: 1.2;
     color: #000000;
+    height: 40px;
 }
 
 .icon-text1 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding-left: 15px;
     gap: 15px;
     display: flex;
@@ -325,6 +334,8 @@ select option {
     padding-left: 15px;
     display: flex;
     align-items: center;
+    position: absolute;
+    bottom: 23px;
 
 }
 
@@ -387,7 +398,7 @@ select option {
 }
 
 #icon-text1 {
-    padding: 0px 15px;
+    padding: 13px 15px;
     /* text-align: center; */
     padding-left: 1px;
     /* border: 1px solid red; */
@@ -406,7 +417,7 @@ select option {
 
 .container-four {
     /* margin: 0 100px; */
-    
+
 }
 
 .section-four {
@@ -638,7 +649,7 @@ select option {
 .sec-five-content {
     /* border: 1px solid green; */
     /* width: 434px; */
-    width: 1045px;
+    /* width: 1045px; */
     height: 434.08px;
     padding: 70px 98px;
     display: flex;
@@ -690,73 +701,164 @@ select option {
 
 
 /* -----------------second last section------------------- */
-.perfect-property
-{
+.perfect-property {
     /* border: 1px solid red; */
     background-color: #F3F3F3;
     padding: 0 100px;
 }
-.section-six-heading span{
+
+.section-six-heading span {
     color: #23976D;
 }
+
 .section-six-heading {
     margin-top: 80px;
     font-weight: 700;
-font-size: 44px;
-line-height: 53px;
+    font-size: 44px;
+    line-height: 53px;
 
-color: #000000;
+    color: #000000;
 }
-.perfect-property{
+
+.perfect-property {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
-.last-prop-right img{
+
+.last-prop-right img {
     margin-top: 70px;
 }
-.last-pro-left p{
+
+.last-pro-left p {
     margin-top: 20px;
     margin-bottom: 40px;
     font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
 
 
-color: #666666;
+    color: #666666;
 }
-.sec-six-inputs{
+
+.sec-six-inputs {
     /* border: 1px solid red; */
     margin-bottom: 40px;
+    /* display: flex; */
 }
-.sec-six-inputs input{
-    width: 270px;
-height: 50px;
 
-background: #FFFFFF;
-border-radius: 10px;
-border-style: none;
+.sec-six-inputs input {
+    /* width: 270px; */
+    /* height: 50px; */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-style: none;
 }
- .sec-six-inputs #second{
+
+.sec-six-inputs #second {
     margin-bottom: 40px;
 }
-.sec-six-inputs input::placeholder{
-    font-weight: 400;
-font-size: 18px;
-line-height: 18px;
-/* identical to box height, or 100% */
 
-padding-top:16px;
-padding-bottom: 16px;
-padding-right: 181px;
-padding-left:31px;
-color: #666666;
+.sec-six-inputs input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    padding: 16px 30px;
+    /* padding-top:16px; */
+    /* padding-bottom: 16px; */
+    /* padding-right: 181px; */
+    /* padding-left:31px; */
+    color: #666666;
 
 }
-.sec-six-inputs{
+
+.sec-six-inputs {
     display: flex;
-    gap:40px;
+    gap: 40px;
+}
+
+.select-input {
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.select-input {
+    padding: 16px 20px;
+    display: flex;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    width: 236px;
+}
+
+.select-input select:focus,
+#second select:focus {
+    outline: none;
+}
+
+
+
+.select-input input {
+    padding: 0;
+    padding-left: 5px;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.select-input option,
+.select-input select {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    color: #666666;
+}
+
+#second select {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    max-width: 278px;
+    padding: 21px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    color: #3E3E3E;
+    /* padding-right: 100px; */
+
+}
+
+#second option {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+
+    color: #3E3E3E;
+
+}
+
+.sec-six-inputs button {
+    width: 270px;
+    height: 60px;
+
+    background: #177B57;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    /* identical to box height, or 90% */
+
+
+    color: #FFFFFF;
+    border: none;
 }
 
 /* -----------------Footer------------------- */
